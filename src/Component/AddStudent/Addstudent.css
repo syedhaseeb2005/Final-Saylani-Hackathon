@@ -1,0 +1,32 @@
+.inputItem{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+    margin-top: 50px;
+}
+.add-student-container{
+    padding: 20px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5C92F7;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+}
+.camera{
+    position: absolute;
+    top: 165px;
+    left: 655px;
+}
+.Addbtn{
+    padding: 10px 45px;
+    background-color: #5C92F7;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

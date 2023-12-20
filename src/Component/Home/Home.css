@@ -1,0 +1,21 @@
+.center {
+  flex: 4;
+}
+.centerWrapper {
+  padding: 30px;
+}
+.center_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.addStudent {
+  display: flex;
+  align-items: center;
+  background-color: #5c93fa;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  gap: 10px;
+  cursor: pointer;
+}
